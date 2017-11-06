@@ -4,6 +4,10 @@
 */cache/*
 !*/cache/index.html
 !*/cache/.htaccess
+.metadata
+tmp/*
+public/tmp/*
+
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
@@ -16,3 +20,7 @@ application/logs/*
 !application/logs/.htaccess
 /vendor/
 /nbproject/private/
+/nbproject/
+
+#Ignore the unit test logs
+/tests/logs
